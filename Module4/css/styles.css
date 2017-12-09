@@ -1,0 +1,19 @@
+title{
+
+	font-size: 2px;
+}
+h1{
+	color:green;
+	text-align: center;
+	font-style: bold;
+
+}
+div{
+
+	position:absoulate;
+    background-color: lightgrey;
+    border: 25px green;
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+   }

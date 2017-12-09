@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp' lang="en">
+  <head>
+    <title>David Chu's China Bistro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+  </head>
+  <body>
+    <h1>***Welcome To Our Restaurant***</h1>
+    <div>
+    <ui-view></ui-view>  
+    <script src="src/menu/menuapp.module.js"></script>
+    <script src="src/data/data.module.js"></script>
+    <script src="src/routes.js"></script>
+    <script src="src/menu/categories.component.js"></script>
+    <script src="src/menu/items.component.js"></script>
+    <script src="src/menu/category-list.controller.js"></script>
+    <script src="src/menu/items.controller.js"></script>
+    <script src="src/data/menudata.service.js"></script>
+    </div>
+  </body>
+</html>
